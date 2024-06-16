@@ -10,9 +10,14 @@
 </head>
 
 <body class="bg-gray-100 flex items-center justify-center min-h-screen">
-	<div class="md:h-screen bg-maincolor bg-opacity-70 flex items-center justify-center w-full">
-		<div class="w-full rounded-none md:max-w-[650px] max-h-[612] md:min-h-[612px] p-[30px] bg-greybg rounded-xl">
-			<h1 class="font-montserrat gradient-text text-[38px] font-bold mb-6">We would like to help you</h1>
+	<div class="h-screen  bg-maincolor bg-opacity-70 flex items-center justify-center w-full ">
+		<div class="w-full rounded-none  md:max-w-[650px] max-h-[612] md:min-h-[612px] p-[30px] bg-greybg md:rounded-xl ">
+      <button class="relative  top-50% right-100% w-6 h-6 flex items-center justify-center cursor-pointer ml-auto">
+        <span class="absolute block w-full h-[2px] bg-orange transform rotate-45"></span>
+        <span class="absolute block  w-full h-[2px] bg-orange transform -rotate-45"></span>
+        <span class="sr-only">Close form</span>
+    </button>
+      <h1 class=" block font-montserrat gradient-text text-[38px] font-bold mb-6 ">We would like to help you</h1>
 			<form>
 				<div class="mt-[30px]">
 					<label for="name" class="block invisible">name</label>
