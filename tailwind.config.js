@@ -19,7 +19,9 @@ module.exports = {
 				'38px': '38px',
 			  },
 			
-			
+			  boxShadow: {
+				'custom-bottom': '0 0 20px 0 #24A3FF'
+			},
 
 			colors: {
 				greybg: '#f5f5f5',
